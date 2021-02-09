@@ -1,0 +1,363 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@700&family=Poppins:wght@400;500;600;800;900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    color: #4B5D68;
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+header{
+    padding-top: 40px;
+}
+body{
+    background: linear-gradient( #F6FAFD, #FFFFFF);
+}
+a{
+    color: #18191F;
+    text-decoration: none;
+}
+hr{
+    background: #9C69E2;
+    height: 2px;
+    opacity: 0.2;
+
+    margin-top: 150px;
+    margin-bottom: 100px;
+}
+.textCenter{
+    text-align: center;
+}
+.container{
+    max-width: 1120px;
+    margin: 0 auto;
+}
+
+.center{
+    align-items: center;
+}
+
+.flex{
+    display: flex;
+}
+.flexStart{
+    align-content: flex-start;
+}
+.absolute{
+    display: absolute;
+}
+.row{
+    flex-direction: row;
+}  
+.column{
+    flex-direction: column;
+}
+.col-1 {
+    flex: 0 0 8.333333%;
+    max-width: 8.333333%;
+}
+  
+.col-2 {
+    flex: 0 0 16.666667%;
+    max-width: 16.666667%;
+}
+  
+.col-3 {
+    flex: 0 0 25%;
+    max-width: 25%;
+}
+  
+.col-4 {
+    flex: 0 0 33.333333%;
+    max-width: 33.333333%;
+}
+  
+.col-5 {
+    flex: 0 0 41.666667%;
+    max-width: 41.666667%;
+}
+  
+.col-6 {
+    flex: 0 0 50%;
+    max-width: 50%;
+}
+  
+.col-7 {
+    flex: 0 0 58.333333%;
+    max-width: 58.333333%;
+}
+  
+.col-8 {
+    flex: 0 0 66.666667%;
+    max-width: 66.666667%;
+}
+  
+.col-9 {
+    flex: 0 0 75%;
+    max-width: 75%;
+}
+  
+.col-10 {
+    flex: 0 0 83.333333%;
+    max-width: 83.333333%;
+}
+  
+.col-11 {
+    flex: 0 0 91.666667%;
+    max-width: 91.666667%;
+}
+  
+.col-12 {
+    flex: 0 0 100%;
+    max-width: 100%;
+}
+
+/* title */
+
+.titleWrapper h1{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 80px;
+    color: #212353;
+}
+
+.titleWrapper span{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 40px;
+    color: #212353;
+}
+.titleWrapper h2{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    color: #212353;
+}
+.titleWrapper h3{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    color: #212353;
+}
+
+/* button */
+
+.btn{
+    width: 210px;
+    height: 60px;
+    background: #FFFFFF;
+    box-shadow: 0px 5px 5px rgba(75, 93, 104, 0.1);
+    border-radius: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    border: 0;
+}
+.pinkBtn{
+    background: #F063B8;
+    color: white;
+}
+.btn:hover{
+    color: white;
+    background-color: #9C69E2;
+}
+
+/* header */
+
+header .flex{
+    justify-content: space-between;
+    align-items: center;
+    height: 72px;
+}
+
+.list_item a{
+    font-size: 16px;
+    font-weight: 600;
+    color: #4B5D68;
+}
+.list_item a:hover,
+.list_item.active a{
+    color: #212353;
+}
+
+.list_style{
+    list-style: none;
+}
+
+.list_item{
+    padding-right: 40px;
+}
+.navWrapper{
+    margin-left: 40px;
+}
+
+header .btnGroupWrapper{
+    justify-content: flex-end;
+}
+
+/* header */
+
+/* intro */
+
+#intro{
+    padding-top: 100px;
+}
+#intro .infoText{
+    margin-top: 30px;
+}
+#intro .btn{
+    margin-top: 50px;
+    background: #9C69E2;
+}
+#intro .linkBtn{
+    color: #FFFFFF;
+}
+#intro .imgWrapper{
+    margin-top: -350px;
+    margin-left: 400px;
+}
+
+/* intro */
+
+/* about us */
+
+#about_us{
+    background: rgba(240, 99, 184, 0.15);
+    border-radius: 50px;
+    margin-top: 90px;
+}
+
+.titleWrapper span{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: bold;
+    font-size: 40px;
+
+    color: #212353;
+}
+#about_us .infoText{
+    margin-top: 20px;
+}
+
+/* features */
+
+#features{
+    margin-top: 120px;
+}
+
+.textCenter .infoText{
+    margin-top: 50px;
+}
+
+.cards{
+    margin-top: 40px;
+    margin-left: 40px;
+    height: 358px;
+    width: 450px;
+}
+
+.textCard{
+    margin-top: 60px;
+    margin-left: 140px;
+    width: 260px;
+}
+
+.textCard .infoText{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.cards .imgWrapper{
+    margin-top: -220px;
+    margin-left: -120px;
+}
+
+.aquaCard{
+    background-image: url("img/aquaCard.svg");
+    background-repeat: no-repeat;
+}
+.violetCard{
+    background-image: url("img/violetCard.svg");
+    background-repeat: no-repeat;
+}
+.pinkCard{
+    background-image: url("img/pinkCard.svg");
+    background-repeat: no-repeat;
+}
+.grayCard{
+    background-image: url("img/grayCard.svg");
+    background-repeat: no-repeat;
+}
+
+/* features */
+
+
+/* testimonials */
+
+#testimonials{
+    margin-top: 150px;
+}
+
+#testimonials .container{
+    height: 600px;
+
+    background: #9C69E2;
+    border-radius: 50px;
+}
+
+#testimonials .titleWrapper span{
+    color: white;
+}
+
+#testimonials .titleWrapper{
+    padding-top: 70px;
+    margin-left: 80px;
+}
+#carouselExampleIndicators{
+    width: 700px;
+    margin-left: 205px;
+    margin-top: 40px;
+}
+
+/* testimonials */
+/* try */
+
+#try .btnGroupWrapper{
+    margin: 20px
+}
+
+/* footer */
+
+footer{
+    margin-top: 170px;
+    padding-bottom: 100px;
+}
+
+.adress h2{
+    margin-left: 20px;
+    margin-top: 4px;
+}
+
+.adress .infoText{
+    margin-top: 70px;
+}
+
+.infoText h6, p{
+    color: #212353;
+}
+
+.copyright{
+    margin-top: 120px;
+}
+.copyright p{
+    font-size: 12px;
+}
+.flexStart .titleWrapper{
+    padding-bottom: 70px;
+}
